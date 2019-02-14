@@ -16,6 +16,8 @@ public class Main {
         System.out.println("What is your name?");
         userName = keyboard.nextLine();
 
+        System.out.println("Ask me a yes or no Question!");
+
 
 
 
