@@ -10,6 +10,7 @@ public class Main {
 
         //initializing
         keyboard= new Scanner(System.in);
+        Random generator  = new Random();
 
 
         System.out.println("What is your name?");
