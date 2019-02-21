@@ -6,7 +6,7 @@ public class Main {
         // write your code here
         String userName;
         Scanner keyboard;
-
+        int go;
 
         //initializing
         keyboard= new Scanner(System.in);
@@ -16,7 +16,8 @@ public class Main {
         System.out.println("What is your name?");
         userName = keyboard.nextLine();
 
-        System.out.println("Ask me a yes or no Question!");
+        System.out.println("Ask me only yes or no Questions!");
+        System.out.println(""+userName+", You May Ask Me A Question When You Are Ready!");
 
 
 
