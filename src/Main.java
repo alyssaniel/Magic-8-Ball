@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -22,7 +23,7 @@ public class Main {
         System.out.println(""+userName+", You May Ask Me A Question When You Are Ready!");
 
         String answer = keyboard.nextLine();
-        int choice = 1 + generator.nextInt(11);
+        int choice = 1 + generator.nextInt(15);
         String response = "";
         if (choice == 1)
             response = "Nope, never!";
@@ -56,7 +57,21 @@ public class Main {
 
         else if (choice == 11)
             response = "My Reply Is Yes";
+
+        else if (choice == 12)
+           response = "Don't Ask...I'm a ball!";
+
+        else if (choice == 13)
+            response = "Better Not Tell You Now";
+
+        else if (choice == 14)
+            response = "Focus and Ask Again";
+
+        else if (choice == 15)
+            response = "Ask Someone Who Cares";
+
         System.out.println(response);
+
 
 
 
