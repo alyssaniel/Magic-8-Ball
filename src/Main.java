@@ -1,4 +1,4 @@
-import java.awt.*;
+
 import java.util.Scanner;
 import java.util.Random;
 
