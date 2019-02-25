@@ -6,8 +6,6 @@ public class Main {
         // write your code here
         String userName;
         Scanner keyboard;
-        String carryOn;
-        int go;
         String userInput;
         //initializing
         keyboard= new Scanner(System.in);
