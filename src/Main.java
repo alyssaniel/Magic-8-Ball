@@ -22,7 +22,7 @@ public class Main {
         System.out.println(""+userName+", You May Ask Me A Question When You Are Ready!");
 
         String answer = keyboard.nextLine();
-        int choice = 1 + generator.nextInt(10);
+        int choice = 1 + generator.nextInt(11);
         String response = "";
         if (choice == 1)
             response = "Nope, never!";
@@ -56,7 +56,7 @@ public class Main {
 
         else if (choice == 11)
             response = "My Reply Is Yes";
-
+        System.out.println(response);
 
 
 
