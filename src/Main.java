@@ -6,13 +6,15 @@ public class Main {
         // write your code here
         String userName;
         Scanner keyboard;
+        String carryOn;
         int go;
         String userInput;
         //initializing
         keyboard= new Scanner(System.in);
         Random generator  = new Random();
-        go = 0;
 
+
+        System.out.println("Welcome to your Magic 8 Ball!");
 
         System.out.println("What is your name?");
         userName = keyboard.nextLine();
@@ -46,7 +48,7 @@ public class Main {
             response = "Yasss";
 
         else if (choice == 8)
-            response = "Don't count of it";
+            response = "Don't count on it";
 
         else if (choice == 9)
             response = "Signs Point To Yes";
@@ -57,6 +59,7 @@ public class Main {
         else if (choice == 11)
             response = "My Reply Is Yes";
         System.out.println(response);
+
 
 
 
