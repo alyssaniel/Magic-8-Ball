@@ -11,7 +11,10 @@ public class Main {
         //initializing
         keyboard= new Scanner(System.in);
         Random generator  = new Random();
-
+        Scanner continueKB;
+        String keepGoing;
+        int go = 0;
+        continueKB = new Scanner(System.in);
 
         System.out.println("Welcome to your Magic 8 Ball!");
 
@@ -71,6 +74,11 @@ public class Main {
             response = "Ask Someone Who Cares";
 
         System.out.println(response);
+
+        System.out.println("Would you like to play again?");
+        System.out.println("Type 'y' for yes or 'n' for no.");
+        keepGoing = continueKB.nextLine();
+        go = keepGoing.indexOf("y");
 
 
 
