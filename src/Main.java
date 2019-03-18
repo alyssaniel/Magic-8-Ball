@@ -75,7 +75,7 @@ public class Main {
 
         System.out.println(response);
 
-        System.out.println("Would you like to play again?");
+        System.out.println("Would you like to ask again?");
         System.out.println("Type 'y' for yes or 'n' for no.");
         keepGoing = continueKB.nextLine();
         go = keepGoing.indexOf("y");
